@@ -27,5 +27,5 @@ jobs:
 
     - name: Run tests and linters
       run: |
-        ruff check photoshop
-        ruff format --check photoshop
+        poetry run ruff check photoshop
+        poetry run ruff format --check photoshop
